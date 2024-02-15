@@ -1,0 +1,19 @@
+.orang-color {
+    color: orange
+}
+section {
+    display: flex;
+}
+.content-area {
+    padding-left: 50px;
+}
+.content-area h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+.image-area img {
+    width: 80%;
+}
+.half-width {
+    width:50%;
+}
