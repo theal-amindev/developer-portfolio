@@ -1,8 +1,17 @@
+body {
+    margin: 0;
+}
+/* welcome area css */
 .orang-color {
     color: orange
 }
 section {
     display: flex;
+}
+.welcome-section {
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
 }
 .content-area {
     padding-left: 50px;
@@ -11,9 +20,33 @@ section {
     font-size: 50px;
     font-weight: 300;
 }
+.content-area p {
+    width: 80%;
+    text-align: justify;
+}
+.content-area a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    /* background-color: orange; */
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
 .image-area img {
     width: 80%;
 }
 .half-width {
     width:50%;
+}
+/* Dream Area css */
+.dream-section {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    flex-direction: row-reveres;
+}
+.dream-section a {
+    text-transform: uppercase;
 }
